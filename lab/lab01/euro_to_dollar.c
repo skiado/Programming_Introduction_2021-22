@@ -3,8 +3,7 @@
 int main(void) {
 	double euro,dollar;
 		
-	printf("Δώσε το ποσό σε ευρώ: ");
-	scanf("%lf",&euro);
+	euro = 57.25;
 	dollar = euro * 1.18;
     printf("%.2lf euros = %.2lf dollars\n",euro,dollar);
     
